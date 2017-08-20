@@ -7,6 +7,6 @@ public class test {
     public static void main(String[] args) {
         String s = "abcdefghijklmn";
         //System.out.println(('y'-'a')/3+1);
-        System.out.println((char) ('A'  + 1));
+        System.out.println((char) ('A' + 'a' - 'A' + 1));
     }
 }

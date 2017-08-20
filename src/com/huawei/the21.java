@@ -31,10 +31,11 @@ public class the21 {
                     }else{
                         sb.append((ch - 'a') / 3 + 2);
                     }
-                }else if(ch>='A'||ch<='Z'){
+                }else if(ch>='A'&&ch<='Z'){
                     if(ch=='Z'){
                         sb.append('a');
-                    }else{
+                    }
+                    else{
                         sb.append((char)(ch + 'a' - 'A' + 1));
                     }
                 }else{
