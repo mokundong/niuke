@@ -6,7 +6,7 @@ package com.huawei;
 public class test {
     public static void main(String[] args) {
         String s = "abcdefghijklmn";
-        System.out.println(s.substring(0,8));
-        System.out.println(s.substring(8));
+        //System.out.println(('y'-'a')/3+1);
+        System.out.println((char) ('A'  + 1));
     }
 }
