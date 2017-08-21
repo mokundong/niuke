@@ -5,8 +5,9 @@ package com.huawei;
  */
 public class test {
     public static void main(String[] args) {
-        String s = "abcdefghijklmn";
-        //System.out.println(('y'-'a')/3+1);
-        System.out.println((char) ('A' + 'a' - 'A' + 1));
+        for(int i =1;i<5;i++){
+            if(i==3) continue;
+            System.out.println(i);
+        }
     }
 }
