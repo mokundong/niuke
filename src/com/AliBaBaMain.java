@@ -5,7 +5,7 @@ package com;
  * 思路是不断的利用两个点连线，获取能够取得的最大点，并排除凸点情况
  */
 import java.util.*;
-public class Main {
+public class AliBaBaMain {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int res;
