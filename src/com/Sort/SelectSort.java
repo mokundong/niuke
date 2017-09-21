@@ -9,9 +9,9 @@ package com.Sort;
  */
 public class SelectSort {
     public static void main(String[] args) {
-        outArr(shellsort(new int[] {9,8,7,6,5,4,3,2}));
+        outArr(sort(new int[] {9,8,7,6,5,4,3,2}));
     }
-    private static int[] shellsort(int[] arr){
+    private static int[] sort(int[] arr){
         for(int i=0;i<arr.length;i++){
             int min = arr[i];
             int n = i;//最小数的索引
